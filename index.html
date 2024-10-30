@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fifty Cats</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="img/cat.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="title">fifty cats</h1>
+        <p class="subtitle">"Nuestra misión descubrir tu próxima gran aventura, empieza la mañana con fifty cats para resolverlo".</p>
+        <nav class="navbar">
+            <a href="index.html">INICIO</a>
+            <a href="blog.html">BLOG</a>
+            <a href="galeria.html">GALERÍA</a>
+            <a href="videos.html">VIDEOS</a>
+        </nav>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </header>
+
+
+    <script>
+        document.addEventListener('mousemove', (event) => {
+            const sparkle = document.createElement('div');
+            sparkle.classList.add('bright');
+            sparkle.style.left = `${event.pageX}px`;
+            sparkle.style.top = `${event.pageY}px`;
+            
+            document.body.appendChild(sparkle);
+    
+            setTimeout(() => {
+                sparkle.remove();
+            }, 500);
+        });
+    </script>
+    </body>
+    </html>
+</body>
+</html>

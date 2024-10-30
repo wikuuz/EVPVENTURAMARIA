@@ -1,0 +1,91 @@
+body {
+    background-color: #f9f9f9; /* Fondo gris claro */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-color: #fff;
+    color: #d5006d; /* Color rosado para los textos */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-family: 'Lobster', cursive; /* Fuente Lobster para el título */
+    font-size: 3em;
+    margin: 0;
+}
+
+.navbar a {
+    color: #d5006d; /* Color rosado para los enlaces */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.featured-image {
+    width: 100%; /* Ajusta a un 100% */
+    max-width: 600px; /* Tamaño máximo para mantener proporción */
+    height: auto;
+    margin: 20px auto;
+    display: block; /* Centra la imagen */
+}
+
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333; /* Color del título del post */
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.author-image {
+    width: 50px; /* Tamaño de la imagen del autor */
+    height: 50px;
+    border-radius: 50%; /* Hacer la imagen circular */
+    margin-right: 10px;
+}
+
+.author-info {
+    font-size: 14px;
+}
+
+.post-content {
+    margin-bottom: 15px;
+    color: #4a4a4a; /* Color del texto de los párrafos */
+}
+
+.additional-image {
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    float: right; /* Alinea la imagen a la derecha */
+    margin-left: 15px; /* Espacio entre la imagen y el texto */
+}
+
+.social-share {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-share a {
+    margin: 0 10px;
+    color: #d5006d; /* Color rosado para los iconos de redes sociales */
+}

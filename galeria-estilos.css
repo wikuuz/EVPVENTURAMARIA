@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Fondo blanco */
+}
+
+.main-header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5em;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar {
+    margin: 10px 0;
+}
+
+.navbar a {
+    color: #ff4081; /* Color rosado para los enlaces */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    width: 30%; /* 3 imágenes por fila */
+    margin-bottom: 20px; /* Espacio entre filas */
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para las imágenes */
+    border-radius: 10px; /* Bordes redondeados para un mejor efecto */
+    transition: transform 0.3s, box-shadow 0.3s; /* Efecto al pasar el mouse */
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Aumenta la sombra al pasar el mouse */
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    color: #ff4081; /* Color rosado para los iconos de redes sociales */
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
